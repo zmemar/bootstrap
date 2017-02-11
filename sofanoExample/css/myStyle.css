@@ -20,6 +20,59 @@
     z-index: 10;
     background-color:white;
 }
+.about{
+
+    background-color: white;
+}
+.aboutR1Col{
+    display: table-row;
+    padding-left: 2em;
+
+}
+.aboutR2Col{
+
+}
+.aboutR1{
+    display: table;
+    padding: 1em 2em 2em 2em;
+}
+.aboutR2{
+
+}
+.HeadIcon{
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+.headEdit{
+    text-align: left;
+    color: rgb(147, 147, 147);
+    font-size: 15px;
+    float: left;
+    padding-top: 5px;
+}
+.headEdit p{
+
+    color: black;
+    font-size: 18px;
+    padding-top: 1em;
+
+}
+a { outline: none;    text-decoration: none;    border: 0;}
+
+.headEdit  a:link{
+    color: black;
+    outline: none;
+    text-decoration: none;
+
+}
+.headEdit  a:hover{
+    text-decoration: none;
+    outline: none;
+    color:skyblue;;
+    
+
+}
 .beforFooter{
     background-color:#eaeef2;
     padding-top: 3em;
@@ -30,13 +83,10 @@
 }
 
 .groupPic{
-
     float: left;
     padding: 1em;
 }
 .whiteBorder{
-
-    border-radius: 5px;
     border: 9px solid #fff;
     border-radius: 5px;
     box-shadow: 1px 1px 0 #c0c0c0;
@@ -54,7 +104,6 @@
 
 }
 .Footer3{
-
     padding: 1em 3em 2em 2em;
     margin-top: 1em;
     float: right;
@@ -128,7 +177,7 @@ ul.topnav li a {
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 ul.topnav li a:hover {color: black;}
