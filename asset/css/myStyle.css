@@ -1,10 +1,24 @@
+
+@font-face {
+    font-family: "PT Sans ",sans-serif;
+    src: url("../fonts/PTC55F.ttf");
+}
+
+@font-face {
+    font-family: "Bitter",Serif;
+    src: url("../fonts/Bitter-Bold.ttf");
+}
 .head{
     background: url("../img/slider_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: table;
 
 }
 
-
+.text{
+    width: 90%;
+}
 .tb-r{
     display: table-row;
 }
@@ -21,7 +35,7 @@
     background-color:white;
 }
 .about{
-
+    padding: 1em 2em 3em 2em;
     background-color: white;
 }
 .aboutR1Col{
@@ -30,14 +44,22 @@
 
 }
 .aboutR2Col{
-
+    display: table-row;
+    padding-left: 2em;
+}
+h3 {
+    font-size: 25px;
+    font-weight: normal;
 }
 .aboutR1{
+    font-family: 'Bitter';
     display: table;
     padding: 1em 2em 2em 2em;
 }
 .aboutR2{
-
+    font-family: 'Bitter';
+    display: table;
+    padding: 1em 2em 2em 2em;
 }
 .HeadIcon{
     margin-right: 10px;
@@ -45,11 +67,13 @@
     margin-bottom: 20px;
 }
 .headEdit{
+
     text-align: left;
     color: rgb(147, 147, 147);
     font-size: 15px;
     float: left;
     padding-top: 5px;
+    line-height: 30px;
 }
 .headEdit p{
 
@@ -92,11 +116,24 @@ a { outline: none;    text-decoration: none;    border: 0;}
     box-shadow: 1px 1px 0 #c0c0c0;
 }
 .Footer1{
-    padding: 1em 3em 2em 2em;
-    margin-top: 1em;
-    float: left;
+      color: lightgray;
+      padding: 1em 3em 2em 2em;
+      margin-top: 1em;
+      float: left;
 
- }
+  }
+.Footer1 a:link{
+    color: lightgray;
+    text-decoration: none;
+    outline: none;
+
+}
+.Footer1 a:hover{
+    color: skyblue;
+    text-decoration: none;
+    outline: none;
+
+}
 .Footer2{
     padding: 1em 3em 2em 2em;
     margin-top: 1em;
@@ -110,33 +147,36 @@ a { outline: none;    text-decoration: none;    border: 0;}
 }
 
 .Footer3 a {
+
     display: block;
     float: left;
     border-radius: 500px;
     width: 31px;
     height: 31px;
     background: url(../img/socials.png) 0 0 no-repeat;
-}
-a {
+
+
     text-decoration: none;
     color: inherit;
     outline: none;
     -o-transition: 0.5s ease;
     -webkit-transition: 0.5s ease;
+
 }
-.Footer3 a+a {
+
+.Footer3 .footerPic2 {
     background-position: -36px 0;
     margin-left: 4px;
 }
 
-.Footer3 a+a+a {
+.Footer3 .footerPic3 {
     background-position: -72px 0px;
 }
 
-.Footer3 a+a+a+a {
+.Footer3 .footerPic4 {
     background-position: -107px 0;
 }
-.Footer3 a+a+a+a+a {
+.Footer3 .footerPic5 {
     background-position: -142px 0;
 }
 a:-webkit-any-link {
@@ -145,32 +185,24 @@ a:-webkit-any-link {
     cursor: auto;
 }
 
-a:hover{
-    background-position-y: -31px;
-}
-a+a:hover{
-    background-position-y: -31px;
-}
-a+a+a:hover{
-    background-position-y: -31px;
-}
-a+a+a+a:hover{
-    background-position-y: -31px;}
-a+a+a+a+a:hover {
-    background-position-y: -31px;
 
+.Footer3  a:hover{
+    background-position-y: -31px;
 }
+
 
 /*baraye menueeeeee ######################## */
 ul.topnav {
     list-style-type: none;
     overflow: hidden;
 
+
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
+    font-family: 'PT Sans' ;
     display: inline-block;
     color: grey;
     text-align: center;
