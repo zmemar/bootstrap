@@ -10,11 +10,31 @@
 }
 .head{
     background: url("../img/slider_bg.jpg");
-    background-repeat: no-repeat;
+
     background-size: cover;
     display: table;
+    width: 100%;
+    padding-top: 10em;
+    padding-left: 10em;
+
 
 }
+
+
+@media screen and (max-width:680px) {
+   .head{
+        padding-left: 2em;
+       padding-top: 20em;
+
+   }
+    .head img{
+        width: 60%;
+    }
+
+
+}
+
+
 
 .text{
     width: 90%;
@@ -50,7 +70,11 @@
 h3 {
     font-size: 25px;
     font-weight: normal;
+    margin-right: 1em;
+
 }
+
+
 .aboutR1{
     font-family: 'Bitter';
     display: table;
@@ -61,9 +85,14 @@ h3 {
     display: table;
     padding: 1em 2em 2em 2em;
 }
-.HeadIcon{
+ .HeadIcon{
     margin-right: 10px;
     float: left;
+    margin-bottom: 20px;
+}
+.HeadIcon2{
+    margin-right: 10px;
+    float: right;
     margin-bottom: 20px;
 }
 .headEdit{
@@ -109,6 +138,7 @@ a { outline: none;    text-decoration: none;    border: 0;}
 .groupPic{
     float: left;
     padding: 1em;
+    margin-bottom: 1em;
 }
 .whiteBorder{
     border: 9px solid #fff;
@@ -284,7 +314,8 @@ li.dropdown {
 /*sliderrr#########################################*/
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
-.mySlides {display:none}
+.mySlides {display:none;width: 800px;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -310,7 +341,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 /* Position the "next button" to the right */
 .next {
-    right: 0;
+    right: 10em;
     border-radius: 3px 0 0 3px;
 }
 
@@ -326,7 +357,7 @@ body {font-family: Verdana,sans-serif;margin:0}
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+
     text-align: center;
 }
 
@@ -358,9 +389,9 @@ body {font-family: Verdana,sans-serif;margin:0}
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 2.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
